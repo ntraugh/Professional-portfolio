@@ -78,7 +78,7 @@ p {
 #Contact {
     margin-top: 20px;
     padding-top: 0px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     margin-bottom: 40px;
     margin-left: 400px;
     margin-right: 400px;
@@ -88,7 +88,7 @@ p {
 
 #Contact a {
     margin-left: 4px;
-    padding-left: 70px;
+    padding-left: 20px;
 }
 
 
@@ -97,6 +97,13 @@ footer {
     padding-top: 100px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer img {
+    box-shadow: 5px 5px 5px 3px grey;
+    border-radius: 25px;
+    border-style: solid;
+    
 }
 
 
@@ -108,7 +115,6 @@ footer {
 .large img {
     margin-top: 10px;
     max-width: 100%;
-    max-height: 100%;
     border: 2px solid darkblue;
     transition: ease-in .5s;
     box-shadow: 5px 5px 5px 3px grey;
@@ -151,9 +157,11 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
-    #me, h2{
-        flex-direction: column;
-        align-items: left
+@media screen and (max-width: px) {
+    main, p  {
+       width: 50%; 
+       height: 50%;
+       align-items: left;
+       
     }
 }
