@@ -159,6 +159,7 @@ footer img {
 
 @media screen and (max-width: px) {
     main, p  {
+       background-color: red;    
        width: 50%; 
        height: 50%;
        align-items: left;
