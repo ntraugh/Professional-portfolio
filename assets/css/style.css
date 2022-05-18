@@ -6,15 +6,15 @@ box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(238, 238, 240);
+    background-color: rgb(197, 217, 253);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+    
 }
 
 header {
     padding: 10px;
-    background-color: rgb(197, 217, 253);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 6px solid darkblue;
     
 }
 
@@ -34,23 +34,30 @@ nav {
 }
 
 
-section img {
-
-    float: right;
-}
-
-
-
-
-
-#links {
+#me {
+    margin-top: 20px;
     padding-top: 20px;
-    margin-left: 0px;
+    margin-left: 00px;
     margin-right: 0px;
-    padding-bottom: 20px;
-    border: 10px solid rgb(197, 217, 253);
+    padding-bottom: 10px;
+    border: 4px solid darkblue;
+    
 }
 
+#work {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 4px solid darkblue;
+
+}
+
+#contact {
+
+    border: 4px solid darkblue;
+}
 
 
 footer {
@@ -59,3 +66,7 @@ footer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+div img {
+    max-width: 20px;
+    max-height: 20px;
+}
