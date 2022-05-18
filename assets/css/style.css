@@ -6,7 +6,56 @@ box-sizing: border-box;
 }
 
 body {
-background-color: whitesmoke;
+    background-color: rgb(238, 238, 240);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(197, 217, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+header h1 {
+    display: inline-block;
+    
+    
+}
+
+nav {
+    
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+section img {
+
+    float: right;
+}
+
+
+
+
+
+#links {
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    border: 10px solid rgb(197, 217, 253);
+}
+
+
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
