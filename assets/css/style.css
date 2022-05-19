@@ -29,9 +29,8 @@ header h1 {
 
 h2 {
     text-decoration: underline;
-    padding: 10px 0px 10px 200px;
+    padding: 30px 0px 10px 200px;
     font-size: 40px;
-    padding-top: 20px;
 }
 
 nav {
@@ -51,32 +50,23 @@ p {
 }
 
 #me {
-    margin-top: 4px;
+    margin: 4px 400px 20px 400px;
     padding: 10px 0px 10px 20px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 20px;
     border-left: 4px solid darkblue;
     border-bottom: 4px solid darkblue;
     
 }
 
 #work {
-    margin-top: 20px;
+    margin: 20px 400px 40px 400px;
     padding: 20px 0px 0px 20px;
-    margin-bottom: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
     border-left: 4px solid darkblue;
 
 }
 
 #Contact {
-    margin-top: 20px;
+    margin: 20px 400px 40px 400px;
     padding: 0px 0px 20px 0px;
-    margin-bottom: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
     border-left: 4px solid darkblue;
     
 }
