@@ -15,7 +15,7 @@
 
 
 ## Visuals
-![PNG](./assets/images/Professional-Portfolio-Nate-Traugh.png)
+![Alt Text](./assets/images/ezgif.com-gif-maker.gif)
 
 ## Resources
 
