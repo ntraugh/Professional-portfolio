@@ -12,6 +12,11 @@
         integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Blaka&family=Merriweather:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Tiro+Bangla&family=Titillium+Web:wght@200;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -32,67 +37,103 @@
     </nav>
 
     <div id="fullPage">
-        <div class="section aboutme col-auto">
-            <h1>Nate Traugh</h1>
-            <h2>Full Stack Web Developer</h2>
-            <p>Nate Traugh is a professional web developer, proficient in HTML, javascript, CSS, Node.js, React and
-                more. Take a look at some of the main projects below and don't forget to
-                checkout the <a href="https://github.com/ntraugh">Github</a> for all the completed projects.</p>
+        <div class="section aboutme">
+            <div class="container">
+                <h1>Nate Traugh</h1>
+                <h2>Full Stack Web Developer</h2>
+                <p>Nate Traugh is a professional web developer, proficient in HTML, javascript, CSS, Node.js, React and
+                    more. Take a look at some of the main projects below and don't forget to
+                    checkout the <a href="https://github.com/ntraugh">Github</a> for all the completed projects.</p>
+            </div>
         </div>
+
         <div class="section work">
             <h1>Projects</h1>
-            <div class="card-group">
-                <div class="card  border-right border-dark">
-                    <img src="./assets/images/map.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Maps || The Fingerprint of the Past
-                        </h5>
-                        <p class="card-text">Maps are scattered all over the internet, historical maps on one site and
-                            current maps on another. With this app you can compare the most current map with multiple
-                            different historical maps side by side. </p>
-                        <a href="https://hreichgelt.github.io/Maps---The-Fingerprint-of-the-Past/"
-                            class="btn btn-primary">Live Site</a>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 py-3 d-flex align-items-stretch">
+                        <div class="card  border-right border-dark g-3">
+                            <img src="./assets/images/map.PNG" class="card-img-top" alt="Map project">
+                            <div class="card-body">
+                                <h5 class="card-title">Maps || The Fingerprint of the Past
+                                </h5>
+                                <p class="card-text">Maps are scattered all over the internet, historical maps on one
+                                    site and
+                                    current maps on another. With this app you can compare the most current map with
+                                    multiple
+                                    different historical maps side by side. </p>
+                                <a href="https://hreichgelt.github.io/Maps---The-Fingerprint-of-the-Past/"
+                                    class="btn btn-primary">Live Site</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card border-right border-dark">
-                    <img src="./assets/images/pass3.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Javascript Password Generator</h5>
-                        <p class="card-text d-flex flex-column">Take away the hassle of having to think of a tough
-                            password with this easy
-                            to use password generator. Using strictly javascript pick between which characters you would
-                            like to include in your password.</p>
-                        <a href="#" class="btn btn-primary">Live Site</a>
+                    <div class="col-12 col-md-4 py-3 d-flex align-items-stretch">
+                        <div class="card border-right border-dark">
+                            <img src="./assets/images/pass3.PNG" class="card-img-top" alt="Password Generator">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript Password Generator</h5>
+                                <p class="card-text">Take away the hassle of having to think of a
+                                    tough
+                                    password with this easy
+                                    to use password generator. Using strictly javascript pick between which characters
+                                    you would
+                                    like to include in your password.</p>
+                                <a href="https://ntraugh.github.io/Password-Generator/" class="btn btn-primary">Live
+                                    Site</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card border-right border-dark">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
-                        <a href="#" class="btn btn-primary">Live Site</a>
+                    <div class="col-12 col-md-4 py-3 d-flex align-items-stretch">
+                        <div class="card border-right border-dark">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This card has even longer content than the first to show that
+                                    equal
+                                    height action.</p>
+                                <a href="#" class="btn btn-primary">Live Site</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section contact col-auto">
-            <h1>Contact Me</h1>
-            <div class="mb-3 w-50">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+        <div class="section contact">
+            <div class="container mt-5">
+                <h1>Contact Me</h1>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                       <label for="firstName" class="form-label">First Name</label>
+                       <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                       <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailInfo" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailInfo" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (123) 456-7890">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Message me</label>
+                        <textarea class="form-control" id="comments" rows="3" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </form>
+            
+
+
             </div>
-            <div class="mb-3 w-50 col-sm-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <button type="submit" class="btn btn-primary mb-3 mt-3">Send</button>
-            </div>
-        </div>
-
-
-
-
     </div>
 
 
