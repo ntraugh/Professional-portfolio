@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -105,14 +105,14 @@
         <div class="section contact">
             <div class="container mt-5">
                 <h1>Contact Me</h1>
-                <form class="row g-3" action="https://formsubmit.co/n.traugh@yahoo.com" method="POST">
+                <form class="row g-3" action="https://formsubmit.co/97197d2f723ddefe0b2f7844a71f59f9" method="POST">
                     <div class="col-md-6">
                        <label for="firstName" class="form-label">First Name</label>
-                       <input type="text" class="form-control" id="firstName" required>
+                       <input type="text" class="form-control" name="name" id="firstName" required>
                     </div>
                     <div class="col-md-6">
                         <label for="lastName" class="form-label">Last Name</label>
-                       <input type="text" class="form-control" id="lastName" required>
+                       <input type="text" class="form-control" name="Last Name" id="lastName" required>
                     </div>
                     <div class="col-md-8">
                         <label for="emailInfo" class="form-label">Email</label>
@@ -120,11 +120,11 @@
                     </div>
                     <div class="col-md-4">
                         <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (123) 456-7890">
+                        <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (123) 456-7890">
                     </div>
                     <div class="col-md-12">
                         <label for="comments" class="form-label">Message me</label>
-                        <textarea class="form-control" id="comments" rows="3" required></textarea>
+                        <textarea class="form-control"  id="comments" name="Message me" rows="3" required></textarea>
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-secondary">Submit</button>
