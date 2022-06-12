@@ -27,7 +27,7 @@ h2 {
 }
 
 label.form-label{
-    color: wheat;
+    color: cornsilk;
     font-size: 24px;
 }
 
@@ -53,7 +53,7 @@ h5 {
 }
 
 .aboutme p {
-    color: wheat;
+    color: cornsilk;
     text-align: center;
     /* margin-left: 2rem; */
     font-size: 2em;
@@ -101,11 +101,11 @@ h5 {
 }
 
 .aboutme {
-    background-image: linear-gradient(blue, black);
+    background-image: linear-gradient(darkblue, black);
 }
 
 .work {
-    background-image: linear-gradient(black, blue);
+    background-image: linear-gradient(black, darkblue);
   
 }
 
@@ -113,7 +113,7 @@ span {
     background: white !important;
 }
 .contact {
-    background-image: linear-gradient(blue, black);
+    background-image: linear-gradient(darkblue, black);
     
 }
 
