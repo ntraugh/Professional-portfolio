@@ -18,6 +18,10 @@ h1 {
     font-family: 'Titillium Web', sans-serif;
 }
 
+.container {
+    height: 100vh; 
+}
+
 h2 {
     color: white;
     font-size: 4rem;
