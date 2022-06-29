@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css"
         integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +39,7 @@
 
     <div id="fullPage">
         <div class="section aboutme">
-            <div class="container">
+            <div class="container" data-aos="fade-left">
                 <img
                     src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light' />
                 <h1>Nate Traugh</h1>
@@ -49,9 +50,10 @@
             </div>
         </div>
         <div class="section work">
-            <h1>Projects</h1>
+           
 
-            <div class="container">
+            <div class="container"  data-aos="fade-right">
+                <h1>Projects</h1>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-3 py-3 d-flex ">
                         <div class="card  border-right border-dark g-3">
@@ -113,7 +115,7 @@
             </div>
         </div>
         <div class="section contact">
-            <div class="container">
+            <div class="container" data-aos="fade-left">
                 <h1>Contact Me</h1>
                 <form class="row g-3" action="https://formsubmit.co/n.traugh@yahoo.com" method="POST">
                     <input type="text" name="_honey" style="display:none">
@@ -152,14 +154,26 @@
     integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     new fullpage("#fullPage", {
         autoScrolling: true,
         navigation: true,
         anchors: ["aboutme", "work", "contact"],
         // responsiveWidth: 800
+        afterLoad: function() {
+            document.querySelectorAll('.fp-table.active .aos-init').forEach((el) => {
+            el.classList.add('aos-animate')
+  })
+}
 
     })
 </script>
-
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 0,
+        
+    });
+  </script>
 </html>
